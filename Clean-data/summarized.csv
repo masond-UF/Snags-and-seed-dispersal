@@ -1,0 +1,102 @@
+"Date","Site","Purpose.of.Visit","Trap.ID..Snag.ID.No.snag...","Trap.category","Snag.Species","Snag.decay.class","Snag.size.class","Number.of.cavities","Percent.punky.wood","Percent.bark","Lowest.limb.height.above.trap..mm.","y","x","Distance.to.nearest.snag..m.","Distance.to.nearest.tree..m.","Seeds.collected.according.to.Shelby","Camera.ID.Facing","Pictures.videos.downloaded.","Tot.seeds"
+2025-08-18,"Arcadia","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.776843,-84.004927,"?","7.9","No",NA,NA,0
+2025-09-03,"Arcadia","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.776843,-84.004927,"?","7.9","Yes",NA,NA,0
+2025-09-18,"Arcadia","Final collection/trap takedown","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.776843,-84.004927,"?","7.9","No","Bushnell 14, pointing N at trap",NA,0
+2025-08-18,"Arcadia","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.756241,-84.999642,"38","7.7","Yes",NA,NA,0
+2025-09-03,"Arcadia","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.756241,-84.999642,"38","7.7","No",NA,NA,0
+2025-09-18,"Arcadia","Final collection/trap takedown","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.756241,-84.999642,"38","7.7","No","Bushnell 15, pointing N at trap",NA,0
+2025-08-18,"Arcadia","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.75067,-84.003527,"35","11.8","No",NA,NA,0
+2025-09-03,"Arcadia","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.75067,-84.003527,"35","11.8","Yes",NA,NA,0
+2025-09-18,"Arcadia","Final collection/trap takedown","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.75067,-84.003527,"35","11.8","No","Bushnell 12, pointing N at trap",NA,0
+2025-08-18,"Arcadia","Collection","Snag 3","Snag","TBD","TBD","TBD","TBD","TBD","TBD",15240,30.758825,-84.012102,NA,"7.1","Yes",NA,NA,0
+2025-09-03,"Arcadia","Collection","Snag 3","Snag","TBD","TBD","TBD","TBD","TBD","TBD",15240,30.758825,-84.012102,NA,"7.1","No",NA,NA,0
+2025-09-18,"Arcadia","Final collection/trap takedown","Snag 3","Snag","TBD","TBD","TBD","TBD","TBD","TBD",15240,30.758825,-84.012102,NA,"7.1","Yes","Bushnell 13, pointing N at trap",NA,1
+2025-08-18,"Arcadia","Collection","Snag 423","Snag","longleaf","2","51-60","1","100","95",13716,30.769028,-84.017554,NA,"6.3","Yes",NA,NA,3
+2025-09-03,"Arcadia","Collection","Snag 423","Snag","longleaf","2","51-60","1","100","95",13716,30.769028,-84.017554,NA,"6.3","Yes",NA,NA,1
+2025-09-18,"Arcadia","Final collection/trap takedown","Snag 423","Snag","longleaf","2","51-60","1","100","95",13716,30.769028,-84.017554,NA,"6.3","Yes","Bushnell 11, pointing N at trap",NA,4
+2025-08-18,"Arcadia","Collection","Snag no ID","Snag","hardwood","TBD","TBD","TBD","TBD","TBD",9825,30.78456,-83.99936,NA,"3",NA,NA,NA,0
+2025-09-03,"Arcadia","Collection","Snag no ID","Snag","hardwood","TBD","TBD","TBD","TBD","TBD",9825,30.78456,-83.99936,NA,"3",NA,NA,NA,0
+2025-09-08,"Arcadia","Collection/cam deployment","Snag no ID","Snag","hardwood","TBD","TBD","TBD","TBD","TBD",9825,30.78456,-83.99936,NA,"3","Yes (1st collection)",NA,NA,1
+2025-09-18,"Arcadia","Final collection/trap takedown","Snag no ID","Snag","hardwood","TBD","TBD","TBD","TBD","TBD",9825,30.78456,-83.99936,NA,"3","Yes",NA,NA,2
+2025-08-18,"Greenwood","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.845899,-84.019171,"21.2","10.9","No",NA,NA,0
+2025-09-03,"Greenwood","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.845899,-84.019171,"21.2","10.9","No",NA,NA,0
+2025-09-15,"Greenwood","Final collection/trap takedown","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.845899,-84.019171,"21.2","10.9","No","Bushnell 9, pointed N at trap","Yes",0
+2025-08-18,"Greenwood","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.86018,-84.014753,"No snag within line of sight","5.5","Yes",NA,NA,0
+2025-09-03,"Greenwood","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.86018,-84.014753,"No snag within line of sight","5.5","No",NA,NA,0
+2025-09-15,"Greenwood","Final collection/trap takedown","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.86018,-84.014753,"No snag within line of sight","5.5","Yes","Bushnel 7, pointed N at trap","Yes",10
+2025-08-18,"Greenwood","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.866588,-84.022379,"34","9.1","Yes",NA,NA,10
+2025-09-03,"Greenwood","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.866588,-84.022379,"34","9.1","Yes",NA,NA,1
+2025-09-15,"Greenwood","Final collection/trap takedown","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.866588,-84.022379,"34","9.1","No","Bushnell 6, pointed N at trap","Yes",0
+2025-08-18,"Greenwood","Collection","Snag (no ID)","Snag","TBD","TBD","TBD","TBD","TBD","TBD",10845.8,30.866283,-84.007533,NA,"4.4","Yes",NA,NA,1
+2025-09-03,"Greenwood","Collection","Snag (no ID)","Snag","TBD","TBD","TBD","TBD","TBD","TBD",10845.8,30.866283,-84.007533,NA,"4.4","Yes",NA,NA,13
+2025-09-15,"Greenwood","Final collection/trap takedown","Snag (no ID)","Snag","TBD","TBD","TBD","TBD","TBD","TBD",10845.8,30.866283,-84.007533,NA,"4.4","Yes","Bushnell 8, pointed N at trap","Yes",0
+2025-08-18,"Greenwood","Collection","Snag 104","Snag","longleaf","3","41-50","0","100","5",12674.6,30.837504,-84.017349,NA,"9.8","Yes",NA,NA,2
+2025-09-03,"Greenwood","Collection","Snag 104","Snag","longleaf","3","41-50","0","100","5",12674.6,30.837504,-84.017349,NA,"9.8","No",NA,NA,0
+2025-09-15,"Greenwood","Final collection/trap takedown","Snag 104","Snag","longleaf","3","41-50","0","100","5",12674.6,30.837504,-84.017349,NA,"9.8","Yes",NA,NA,5
+2025-08-18,"Greenwood","Collection","Snag 5","Snag","longleaf","3","41-50","0","100","95",10769.6,30.850142,-84.011831,NA,"4.4","Yes",NA,NA,0
+2025-09-03,"Greenwood","Collection","Snag 5","Snag","longleaf","3","41-50","0","100","95",10769.6,30.850142,-84.011831,NA,"4.4","No",NA,NA,0
+2025-09-15,"Greenwood","Final collection/trap takedown","Snag 5","Snag","longleaf","3","41-50","0","100","95",10769.6,30.850142,-84.011831,NA,"4.4","Yes","Bushnell 10, pointed N at trap","Yes",0
+2025-08-21,"Livingston Place","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632454,-83.676023,NA,"10.7","Yes",NA,NA,0
+2025-09-05,"Livingston Place","Collection/cam deployment","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632454,-83.676023,NA,"10.7","No",NA,NA,0
+2025-09-19,"Livingston Place","Final collection/trap takedown","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632454,-83.676023,NA,"10.7","No",NA,NA,0
+2025-08-21,"Livingston Place","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632558,-83.701939,NA,"12.5","Yes",NA,NA,2
+2025-09-05,"Livingston Place","Collection/cam deployment","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632558,-83.701939,NA,"12.5","No","Bushnell 3, pointing N at trap",NA,0
+2025-09-19,"Livingston Place","Final collection/trap takedown","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.632558,-83.701939,NA,"12.5","Yes","Bushnell 3, pointing N at trap",NA,0
+2025-08-21,"Livingston Place","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.645571,-83.685279,NA,"14.9","No",NA,NA,5
+2025-09-05,"Livingston Place","Collection/cam deployment","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.645571,-83.685279,NA,"14.9","No",NA,NA,0
+2025-09-19,"Livingston Place","Final collection/trap takedown","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.645571,-83.685279,NA,"14.9","No",NA,NA,0
+2025-08-21,"Livingston Place","Collection","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.63599,-83.654736,NA,"11.5","Yes",NA,NA,5
+2025-09-05,"Livingston Place","Collection/cam deployment","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.63599,-83.654736,NA,"11.5","Yes","Bushnell 5, pointing N at trap",NA,1
+2025-09-19,"Livingston Place","Final collection/trap takedown","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.63599,-83.654736,NA,"11.5","Yes","Bushnell 5, pointing N at trap",NA,2
+2025-08-21,"Livingston Place","Collection","Snag 391","Snag","shortleaf","2","51-60","0","100","100",8788.4,30.643173,-83.673558,NA,"12.8","No",NA,NA,0
+2025-09-05,"Livingston Place","Collection/cam deployment","Snag 391","Snag","shortleaf","2","51-60","0","100","100",8788.4,30.643173,-83.673558,NA,"12.8","Yes","Bushnell 1, pointing N at trap",NA,0
+2025-09-19,"Livingston Place","Final collection/trap takedown","Snag 391","Snag","shortleaf","2","51-60","0","100","100",8788.4,30.643173,-83.673558,NA,"12.8","Yes","Bushnell 1, pointing N at trap",NA,4
+2025-08-21,"Livingston Place","Collection","Snag 463","Snag","loblolly","3","41-50","0","100","15",11226.8,30.628077,-83.68622,NA,"4","Yes",NA,NA,1
+2025-09-05,"Livingston Place","Collection/cam deployment","Snag 463","Snag","loblolly","3","41-50","0","100","15",11226.8,30.628077,-83.68622,NA,"4","Yes",NA,NA,4
+2025-09-19,"Livingston Place","Final collection/trap takedown","Snag 463","Snag","loblolly","3","41-50","0","100","15",11226.8,30.628077,-83.68622,NA,"4","Yes",NA,NA,4
+2025-08-21,"Livingston Place","Collection","Snag 643","Snag","shortleaf","2","51-60","0","100","100",7416.8,30.625463,-83.676971,NA,"10.9","Yes",NA,NA,13
+2025-09-05,"Livingston Place","Collection/cam deployment","Snag 643","Snag","shortleaf","2","51-60","0","100","100",7416.8,30.625463,-83.676971,NA,"10.9","Yes","Bushnell 2, pointing N at trap",NA,11
+2025-09-19,"Livingston Place","Final collection/trap takedown","Snag 643","Snag","shortleaf","2","51-60","0","100","100",7416.8,30.625463,-83.676971,NA,"10.9","Yes","Bushnell 2, pointing N at trap",NA,18
+2025-08-21,"Livingston Place","Collection","Snag 708","Snag","longleaf","2","41-50","0","100","100",10210.8,30.624606,-83.666928,NA,"4","Yes",NA,NA,0
+2025-09-05,"Livingston Place","Collection/cam deployment","Snag 708","Snag","longleaf","2","41-50","0","100","100",10210.8,30.624606,-83.666928,NA,"4","No","Bushnell 4, pointing N at trap",NA,0
+2025-09-19,"Livingston Place","Final collection/trap takedown","Snag 708","Snag","longleaf","2","41-50","0","100","100",10210.8,30.624606,-83.666928,NA,"4","Yes","Bushnell 4, pointing N at trap",NA,0
+2025-07-30,"Tall Timbers","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.674793,-84.237102,"9.8","6.8","Yes","Bushnell 9 (facing open sky), Bushnell 13 (facing trap N)","Yes",1
+2025-08-19,"Tall Timbers","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.674793,-84.237102,"9.8","6.8","Yes","Bushnell 9 (facing open sky), Bushnell 13 (facing trap N)","Yes",1
+2025-09-04,"Tall Timbers","Collection","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.674793,-84.237102,"9.8","6.8","No","Bushnell 9 (facing open sky), Bushnell 13 (facing trap N)","Yes (final images, cams taken down)",0
+2025-09-16,"Tall Timbers","Final Collection/trap takedown","No snag 1","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.674793,-84.237102,"9.8","6.8","Yes",NA,NA,4
+2025-07-30,"Tall Timbers","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.66244,-84.249036,"15.1","6","Yes","Bushnell 2 (facing open sky), Bushnell 8 (facing trap N)","Yes",1
+2025-08-19,"Tall Timbers","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.66244,-84.249036,"15.1","6","Yes","Bushnell 2 (facing open sky), Bushnell 8 (facing trap N)","Yes",0
+2025-09-04,"Tall Timbers","Collection","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.66244,-84.249036,"15.1","6","No","Bushnell 2 (facing open sky), Bushnell 8 (facing trap N)","Yes (final images, cams taken down)",0
+2025-09-16,"Tall Timbers","Final Collection/trap takedown","No snag 2","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.66244,-84.249036,"15.1","6","No",NA,NA,0
+2025-07-30,"Tall Timbers","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.654065,-84.23733,"13.3","11.3","Yes","Bushnell 1 (facing trap N), Bushnell 6 (facing open sky)","Yes",5
+2025-08-19,"Tall Timbers","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.654065,-84.23733,"13.3","11.3","No","Bushnell 1 (facing trap N), Bushnell 6 (facing open sky)","Yes",0
+2025-09-04,"Tall Timbers","Collection","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.654065,-84.23733,"13.3","11.3","Yes","Bushnell 1 (facing trap N), Bushnell 6 (facing open sky)","Yes (final images, cams taken down)",7
+2025-09-18,"Tall Timbers","Final Collection/trap takedown","No snag 3","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.654065,-84.23733,"13.3","11.3","Yes",NA,NA,3
+2025-07-30,"Tall Timbers","Collection","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.650346,-84.216001,"37.6","TBD","No","Bushnell 12 (facing open sky)","Yes",0
+2025-08-19,"Tall Timbers","Collection","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.650346,-84.216001,"37.6","TBD","Yes","Bushnell 12 (facing open sky)","Yes",1
+2025-09-04,"Tall Timbers","Collection","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.650346,-84.216001,"37.6","TBD","Yes","Bushnell 12 (facing open sky)","Yes (final images, cams taken down)",1
+2025-09-18,"Tall Timbers","Final Collection/trap takedown","No snag 4","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.650346,-84.216001,"37.6","TBD","Yes",NA,NA,1
+2025-07-30,"Tall Timbers","Collection","No snag 5","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.661394,-84.218595,"48.6","12.1","Yes","Bushnell 10 (facing open sky)","Yes",1
+2025-08-19,"Tall Timbers","Collection","No snag 5","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.661394,-84.218595,"48.6","12.1","No","Bushnell 10 (facing open sky)","Yes",0
+2025-09-04,"Tall Timbers","Collection","No snag 5","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.661394,-84.218595,"48.6","12.1","Yes","Bushnell 10 (facing open sky)","Yes (final images, cams taken down)",0
+2025-09-16,"Tall Timbers","Final Collection/trap takedown","No snag 5","Canopy gap",NA,NA,NA,NA,NA,NA,NA,30.661394,-84.218595,"48.6","12.1","No",NA,NA,0
+2025-07-30,"Tall Timbers","Collection","Snag 113","Snag","longleaf","2","21-30",NA,NA,NA,4978.4,30.656672,-84.214833,NA,"8.3","Yes","Bushnell 11 (facing target limb), Bushnell 15 (facing trap N)","Yes",47
+2025-08-19,"Tall Timbers","Collection","Snag 113","Snag","longleaf","2","21-30",NA,NA,NA,4978.4,30.656672,-84.214833,NA,"8.3","Yes","Bushnell 11 (facing target limb), Bushnell 15 (facing trap N)","Yes",32
+2025-09-04,"Tall Timbers","Collection","Snag 113","Snag","longleaf","2","21-30",NA,NA,NA,4978.4,30.656672,-84.214833,NA,"8.3","Yes","Bushnell 11 (facing target limb), Bushnell 15 (facing trap N)","Yes (final images, cams taken down)",50
+2025-09-18,"Tall Timbers","Final Collection/trap takedown","Snag 113","Snag","longleaf","2","21-30",NA,NA,NA,4978.4,30.656672,-84.214833,NA,"8.3","Yes",NA,NA,11
+2025-07-30,"Tall Timbers","Collection","Snag 16","Snag","shortleaf","3","31-40","0","100","20",6756.4,30.650968,-84.225664,NA,"9.5","Yes","Bushnell 7 (facing target limb)","Yes",24
+2025-08-19,"Tall Timbers","Collection","Snag 16","Snag","shortleaf","3","31-40","0","100","20",6756.4,30.650968,-84.225664,NA,"9.5","Yes","Bushnell 7 (facing target limb)","Yes",38
+2025-09-04,"Tall Timbers","Collection","Snag 16","Snag","shortleaf","3","31-40","0","100","20",6756.4,30.650968,-84.225664,NA,"9.5","Yes","Bushnell 7 (facing target limb)","Yes (final images, cams taken down)",63
+2025-09-18,"Tall Timbers","Final Collection/trap takedown","Snag 16","Snag","shortleaf","3","31-40","0","100","20",6756.4,30.650968,-84.225664,NA,"9.5","Yes",NA,NA,1
+2025-07-30,"Tall Timbers","Collection","Snag 26","Snag","shortleaf","3","51-60","2","100","10",5715,30.662301,-84.239063,NA,"7.3","Yes","Bushnell 5 (facing target limb)","Yes",0
+2025-08-19,"Tall Timbers","Collection","Snag 26","Snag","shortleaf","3","51-60","2","100","10",5715,30.662301,-84.239063,NA,"7.3","Yes","Bushnell 5 (facing target limb)","Yes",6
+2025-09-04,"Tall Timbers","Collection","Snag 26","Snag","shortleaf","3","51-60","2","100","10",5715,30.662301,-84.239063,NA,"7.3","Yes","Bushnell 5 (facing target limb)","Yes (final images, cams taken down)",2
+2025-09-18,"Tall Timbers","Final Collection/trap takedown","Snag 26","Snag","shortleaf","3","51-60","2","100","10",5715,30.662301,-84.239063,NA,"7.3","No",NA,NA,0
+2025-07-30,"Tall Timbers","Collection","Snag 33","Snag","shortleaf","3","51-60","0","100","70",10795,30.655699,-84.206041,NA,"9.2","No","Bushnell 14 (facing target limb)","Yes",0
+2025-08-19,"Tall Timbers","Collection","Snag 33","Snag","shortleaf","3","51-60","0","100","70",10795,30.655699,-84.206041,NA,"9.2","Yes","Bushnell 14 (facing target limb)","Yes",3
+2025-09-04,"Tall Timbers","Collection","Snag 33","Snag","shortleaf","3","51-60","0","100","70",10795,30.655699,-84.206041,NA,"9.2","Yes","Bushnell 14 (facing target limb)","Yes (final images, cams taken down)",44
+2025-09-16,"Tall Timbers","Final Collection/trap takedown","Snag 33","Snag","shortleaf","3","51-60","0","100","70",10795,30.655699,-84.206041,NA,"9.2","Yes",NA,NA,2
+2025-07-30,"Tall Timbers","Collection","Snag 38","Snag","shortleaf","3","71-80","5","100","80",10439.4,30.673525,-84.217222,NA,"18.8","Yes","Bushnell 3 (facing trap N), Bushnell 4 (facing target limb)","Yes",0
+2025-08-19,"Tall Timbers","Collection","Snag 38","Snag","shortleaf","3","71-80","5","100","80",10439.4,30.673525,-84.217222,NA,"18.8","Yes","Bushnell 3 (facing trap N), Bushnell 4 (facing target limb)","Yes",2
+2025-09-04,"Tall Timbers","Collection","Snag 38","Snag","shortleaf","3","71-80","5","100","80",10439.4,30.673525,-84.217222,NA,"18.8","Yes","Bushnell 3 (facing trap N), Bushnell 4 (facing target limb)","Yes (final images, cams taken down)",1
+2025-09-16,"Tall Timbers","Final Collection/trap takedown","Snag 38","Snag","shortleaf","3","71-80","5","100","80",10439.4,30.673525,-84.217222,NA,"18.8","No",NA,NA,0
