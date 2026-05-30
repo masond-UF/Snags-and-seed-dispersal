@@ -26,7 +26,7 @@ seed.mat <- read.csv("Clean-data/matrix.csv")
 seed.mat$Unknown <- apply(seed.mat[,34:49], sum, na.rm = TRUE,
 												 MARGIN = 1)
 
-# Drop individual unknow columns 
+# Drop individual unknown columns 
 seed.mat <- seed.mat |>
 	dplyr::select(1:33,50)
 
@@ -37,9 +37,36 @@ str(seeds.lg)
 
 ## --------------- TAXA AT SNAGS VS CANOPY -------------------------------------
 
+# summarize total bird-dispersed seeds by trap category
+seed.summary <- seeds.lg |>
+	filter(Taxa %in% c("CAAE", "PHAM", "SACA", "PAQU", "NYSY", "MAGR", "RHCO", "RUBUS")) |>
+  group_by(Trap.category) |>
+  summarise(total_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop")
+
+ggplot(seed.summary, aes(x = Trap.category, y = total_seeds, fill = Trap.category)) +
+  geom_col(width = 0.7, color = "grey20") +
+  scale_fill_brewer(palette = "Set2") +
+  labs(
+    x = "Trap category",
+    y = "Total bird-dispersed seeds collected"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    legend.position = "none",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    aspect.ratio = 1.3,
+    axis.title.x = element_blank(),
+    axis.title.y = element_text(face = "bold"),
+    axis.text.x = element_text(face = "bold"),
+    axis.text = element_text(color = "black"),
+		axis.title = element_text(color = "black")
+  )
+
+
 # summarize total seeds per taxa × trap category
-seed.summary <- seeds.lg %>%
-  group_by(Taxa, Trap.category) %>%
+seed.summary <- seeds.lg |>
+  group_by(Taxa, Trap.category) |>
   summarise(total_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop")
 
 ggplot() +
@@ -66,8 +93,8 @@ ggplot() +
 
 ## --------------- FACETTED BY SITE --------------------------------------------
 
-seed.summary.site <- seeds.lg %>%
-  group_by(Site, Taxa, Trap.category) %>%
+seed.summary.site <- seeds.lg |>
+  group_by(Site, Taxa, Trap.category) |>
   summarise(total_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop")
 
 ggplot() +
@@ -119,9 +146,9 @@ ggplot() +
 
 library(tidytext)
 
-trap.totals <- seeds.lg %>%
-  group_by(Site, Trap.ID..Snag.ID.No.snag..., Trap.category) %>%
-  summarise(total_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop") %>%
+trap.totals <- seeds.lg |>
+  group_by(Site, Trap.ID..Snag.ID.No.snag..., Trap.category) |>
+  summarise(total_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop") |>
   # reverse order: negative total_seeds makes largest value come first
   mutate(trap_ordered = reorder_within(Trap.ID..Snag.ID.No.snag..., -total_seeds, Site))
 
@@ -159,15 +186,15 @@ ggplot(trap.totals, aes(x = trap_ordered, y = total_seeds, fill = Trap.category)
 ## --------------- CUMULATIVE TOTALS -------------------------------------------
 
 # Convert Date to date type
-seeds.lg <- seeds.lg %>%
+seeds.lg <- seeds.lg |>
   mutate(Date = as.Date(Date))
 
 # cumulative seeds per site through time
-cumulative.seeds <- seeds.lg %>%
-  group_by(Site, Date) %>%
-  summarise(daily_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop") %>%
-  group_by(Site) %>%
-  arrange(Date) %>%
+cumulative.seeds <- seeds.lg |>
+  group_by(Site, Date) |>
+  summarise(daily_seeds = sum(Seeds, na.rm = TRUE), .groups = "drop") |>
+  group_by(Site) |>
+  arrange(Date) |>
   mutate(cumulative_seeds = cumsum(daily_seeds))
 
 ggplot(cumulative.seeds, aes(x = Date, y = cumulative_seeds, color = Site,
@@ -182,13 +209,13 @@ ggplot(cumulative.seeds, aes(x = Date, y = cumulative_seeds, color = Site,
   ) +
 	theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 
-cumulative.taxa <- seeds.lg %>%
-  group_by(Site, Date, Taxa) %>%
-  summarise(present = any(Seeds > 0), .groups = "drop") %>%
-  group_by(Site, Date) %>%
-  summarise(unique_taxa = sum(present), .groups = "drop") %>%
-  group_by(Site) %>%
-  arrange(Date) %>%
+cumulative.taxa <- seeds.lg |>
+  group_by(Site, Date, Taxa) |>
+  summarise(present = any(Seeds > 0), .groups = "drop") |>
+  group_by(Site, Date) |>
+  summarise(unique_taxa = sum(present), .groups = "drop") |>
+  group_by(Site) |>
+  arrange(Date) |>
   mutate(cumulative_taxa = cumsum(unique_taxa))
 
 ggplot(cumulative.taxa, aes(x = Date, y = cumulative_taxa, color = Site,
@@ -237,9 +264,18 @@ ggplot(data = plot.data, aes(x = NMDS1, y = NMDS2)) +
   # site points
   geom_point(aes(colour = Site, shape = Trap.category), size = 3) +
   # species labels (using their own data frame)
-  geom_text_repel(data = nmds.species,
-                  aes(x = NMDS1, y = NMDS2, label = rownames(nmds.species)),
-                  colour = "black", size = 3) +
+	geom_text_repel(
+	  data = nmds.species,
+	  aes(x = NMDS1, y = NMDS2, label = rownames(nmds.species)),
+	  colour = "black",
+	  size = 3,
+	  max.overlaps = Inf,
+	  box.padding = 1.5,       # space around labels
+	  point.padding = 0.3,     # space from points
+	  min.segment.length = 4,  # always draw connecting lines
+	  segment.color = "white",
+	  segment.size = 0.3
+	)+
   coord_equal() +
   theme_bw(base_size = 14) +
   theme(panel.grid = element_blank(),
@@ -247,3 +283,5 @@ ggplot(data = plot.data, aes(x = NMDS1, y = NMDS2)) +
   labs(x = "NMDS1", y = "NMDS2",
        colour = "Trap category",
        shape = "Site")
+
+
